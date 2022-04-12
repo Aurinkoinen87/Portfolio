@@ -1,0 +1,26 @@
+.intro_section {
+  background: url("./assets/pics/weather_symbols_sun.svg") center no-repeat;
+  background-color: rgb(48, 175, 189);
+  background-size: 100%;
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.intro_text {
+  font-family: "Grape Nuts", cursive;
+  font-size: 1.3rem;
+  flex: 5;
+  text-align: center;
+}
+
+.intro_photo {
+  flex: 5;
+}
+
+.intro_photo img {
+  max-width: 90%;
+}

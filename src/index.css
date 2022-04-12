@@ -1,0 +1,16 @@
+* {
+    font-family: 'Anek Tamil', sans-serif;
+    /* height: 100vh; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 'Grape Nuts', cursive; */
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+

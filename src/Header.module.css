@@ -1,0 +1,33 @@
+.header {
+  height: 40px;
+  background-color: rgb(249 247 244);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.header_text {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e8e2cc;
+  width: 400px;
+}
+
+.header_icon {
+  display: block;
+}
+
+.header_navbar {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_navbar a {
+  text-decoration: none;
+  color: #ffd900;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
