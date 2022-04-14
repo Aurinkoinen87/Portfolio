@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 25px 40px;
 }
 
 .header_text {
@@ -25,9 +25,30 @@
   justify-content: space-between;
 }
 
-.header_navbar a {
+.header_nav_link {
   text-decoration: none;
   color: #ffd900;
   font-size: 1.2rem;
   font-weight: 700;
+  position: relative;
+  transition: color 0.2s linear;
+}
+
+
+.header_nav_link:hover {
+  color: #ab9200;
+}
+
+.header_nav_link.nav_link_active {
+  position: relative;
+}
+
+.header_nav_link.nav_link_active:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: rgb(144, 144, 131);
+  left: 0;
+  bottom: -2px;
 }

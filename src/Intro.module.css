@@ -1,13 +1,29 @@
-.intro_section {
+
+
+
+
+
+
+
+.intro_bg {
   background: url("./assets/pics/weather_symbols_sun.svg") center no-repeat;
   background-color: rgb(48, 175, 189);
   background-size: 100%;
   background-attachment: fixed;
+}
+
+.intro {
+  margin: 0 auto;
+  width: 80%;
   display: flex;
-  flex-wrap: wrap;
   height: 100vh;
   color: #fff;
-  padding: 40px 0;
+  padding: 60px 0;
+}
+
+h1 {
+  color:rgb(6, 104, 114);
+  margin-bottom: 30px;
 }
 
 .intro_text {
@@ -15,12 +31,22 @@
   font-size: 1.3rem;
   flex: 5;
   text-align: center;
+  position: relative;
 }
 
-.intro_photo {
+.cloud {
+  position: absolute;
+  left: 10px;
+  bottom: -120px;
+  width: 90%;
+}
+.intro_photo_block {
   flex: 5;
 }
 
-.intro_photo img {
-  max-width: 90%;
+.intro_photo {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
 }
+
