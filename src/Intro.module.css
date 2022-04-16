@@ -6,7 +6,7 @@
 
 
 .intro_bg {
-  background: url("./assets/pics/weather_symbols_sun.svg") center no-repeat;
+  background: url("./assets/pics/mountains.jpg") center no-repeat;
   background-color: rgb(48, 175, 189);
   background-size: 100%;
   background-attachment: fixed;
@@ -34,12 +34,15 @@ h1 {
   position: relative;
 }
 
-.cloud {
+.cloud1 {
   position: absolute;
-  left: 10px;
-  bottom: -120px;
+  left: -190px;
+  bottom: -180px;
   width: 90%;
 }
+
+
+
 .intro_photo_block {
   flex: 5;
 }

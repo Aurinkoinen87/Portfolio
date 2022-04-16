@@ -1,6 +1,6 @@
 import s from "./Intro.module.css";
 import face from "./assets/pics/sddefault.jpg";
-import cloud from "./assets/pics/cloud.png";
+import cloud1 from "./assets/pics/cloud1.png";
 
 
 export function Intro() {
@@ -11,7 +11,8 @@ export function Intro() {
         <h1>Frontend developer</h1>
         <span>with no experience</span>
         <p>dreams to land a job</p>
-        <img className={s.cloud} src={cloud} alt="cloud" />
+        <img className={s.cloud1} src={cloud1} alt="cloud" />
+
       </div>
 
       <div className={s.intro_photo_block}>

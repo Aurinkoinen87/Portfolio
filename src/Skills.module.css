@@ -18,3 +18,13 @@
   text-align: center;
   padding-top: 70px;
 }
+
+
+.skills_block {
+  border: 2px solid black;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}

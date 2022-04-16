@@ -1,0 +1,17 @@
+.skill {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  align-items: center;
+}
+
+.skill_title {
+  color:rgb(202, 208, 154);
+  text-transform: uppercase;
+}
+
+.skill_description {
+  color: #fff;
+  width: 50%;
+}
