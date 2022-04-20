@@ -1,17 +1,17 @@
-.skills_bg {
+.skills__container {
   background: url("./assets/pics/moon-moonlight-night-cloudy.jpg") center no-repeat;
   background-color: rgb(46, 45, 54);
   background-size: 100%;
 }
 
 
-.skills_content {
+.skills__content {
+  width: 80%;
   height: 100vh;
   margin: 0 auto;
-  width: 80%;
 }
 
-.text {
+.skills__title {
   text-transform: uppercase;
   color: aliceblue;
   font-family: 'Grape Nuts', cursive;
@@ -20,11 +20,9 @@
 }
 
 
-.skills_block {
-  border: 2px solid black;
-  margin-top: 200px;
+.skills__block {
+  margin: 100px -20px 0;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   border-radius: 5px;
 }

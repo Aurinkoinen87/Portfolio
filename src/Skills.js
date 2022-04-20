@@ -7,15 +7,17 @@ const skills = [{name: 'html/css', imgUrl: ''}, {name: 'javascript', imgUrl: './
 
 export function Skills(props) {
   return (
-    <div className={s.skills_bg}>
-      <div className={s.skills_content}>
-            <h2 className={s.text}>My skills</h2>
-            <div className={s.skills_block}>
+    <div className={s.skills}>
+    <div className={s.skills__container}>
+      <div className={s.skills__content}>
+            <h2 className={s.skills__title}>My skills</h2>
+            <div className={s.skills__block}>
               {skills.map((s,i)=> <Skill key={i} name={s.name}/>)}
             
             </div>
       
       </div>
+    </div>
     </div>
   );
 }
